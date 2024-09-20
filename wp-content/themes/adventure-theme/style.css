@@ -1,0 +1,50 @@
+/*
+Theme Name: Twenty Twenty
+Theme URI: https://#
+Description: Build your own character from scratch. Inspired by dnd. Use this for whatever you like, is it planning, for an upcoming campaign or just for fun? Do as you like. Happy crafting
+Version: 1.0.0
+Author: TheOneAndOnly
+Author URI: https://wordpress.org/
+Tags: Fantasy, builder, character
+Text Domain: adventuretheme
+Tested up to: 6.6.1
+Requires at least: 6.6.1
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.adv__container {
+    padding: 5em;
+}
+
+.adv__header  {
+    text-align: center;
+    text-decoration: none;
+}
+
+.adv__nav__container {
+    text-align: center;
+    background-color: darkgrey;
+}
+
+.adv__form {
+    padding: 10em;
+    background-color: white;
+}
+
+.adv__footer {
+    background-color: darkgrey;
+    bottom: 0em;
+    height: 20em;
+}
